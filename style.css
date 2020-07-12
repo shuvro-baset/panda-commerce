@@ -1,0 +1,37 @@
+.container{
+    margin-bottom: 100px;
+}
+
+.orange-bg{
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.price{
+    color: firebrick;
+}
+.cat1{
+    background-image: linear-gradient(to right, red , blue);
+}
+.cat2{
+    background-image: linear-gradient(to right, cyan , blue);
+}
+.cat3{
+    background-image: linear-gradient(to right, rgb(248, 8, 100) , blue);
+}
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.categories h1{
+    color: white;
+}
+.categories img{
+    height: 100px;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray ;
+}
