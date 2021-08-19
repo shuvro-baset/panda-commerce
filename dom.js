@@ -1,0 +1,1 @@
+console.log("Yes dom js connected");
