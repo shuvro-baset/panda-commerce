@@ -48,7 +48,7 @@
                                 waste time in front of tv.
                             </p>
                             <h1 class="price">$1200</h1>
-                            <button class="btn btn-danger">
+                            <button  class="btn btn-danger" >
                                 Buy Now
                             </button>
                         </div>
@@ -65,7 +65,7 @@
                             <p>This headphone is only for music lovers. Very good quality headphone. Have fun with your favourite music.
                             </p>
                             <h1 class="price">$450</h1>
-                            <button class="btn btn-danger">
+                            <button class="btn btn-danger" >
                                 Buy Now
                             </button>
                         </div>
@@ -198,13 +198,13 @@
           
         </div>
           <div class="card-footer">
-            <button class="btn btn-danger">
+            <button class="btn btn-danger" onclick="clickConsole()">
                 Buy Now >>
             </button>
           </div>
         </div>
         <div class="card">
-          <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+          <img src="images/bags/bag-3.png" class="card-img-top" id="image-change" alt="...">
           <div class="card-body">
             <h5 class="card-title">Black Bag</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
@@ -225,8 +225,8 @@
     <div>
         <h3>Lets Stay In Touch</h3>
         <h6>Get updates on sales special and more</h6>
-        <input class="form-control" type="text">
-        <button class="btn btn-danger ">
+        <input id="subscribe-input" class="form-control" type="text">
+        <button id="btn-disable" class="btn btn-danger" disabled>
             Subscribe
         </button>
     </div>
@@ -249,7 +249,9 @@
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
 
-    <script src="dom.js"></script>
+
+        // this script is use for dom manipulation
+    <!-- <script src="dom.js"></script> -->
 </body>
 
 </html>
